@@ -8,7 +8,7 @@ public class AreaTriangulo {
     public static void main(String[] args) {
 
         Scanner obj = new Scanner(System.in);
-        String n = " Triangulo  ";
+        String n = "POOTriangulo  ";
         int Base;
         int Altura;
         float Area;

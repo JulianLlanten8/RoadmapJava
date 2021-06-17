@@ -1,3 +1,5 @@
+package Matrix;
+
 /*
 49. Construir una función que reciba una matriz 5x5 y retorne el valor de su moda. 
 La moda de un conjunto de datos es el dato que mas se repite.

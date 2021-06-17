@@ -1,9 +1,9 @@
 /*
-1. Diseñe un algoritmo que permita detectar los números pares Existentes en una serie de 1 a n, siendo n un número digitado por un usuario.
+1. Dise&ntilde;e un algoritmo que permita detectar los n&uacute;meros pares Existentes en una serie de 1 a n, siendo n un n&uacute;mero digitado por un usuario.
 
 Solucion:
-Entrada: Declaro 3 variables tipo entero para almacenar 3 numeros un que va a gurdar el numero par,el indicador del usuraio hasta que numero
-quiere ver los nuemros pares y el que va a guardar si el numero es par; todo esto lo procesamos dentro de el ciclo for con una condicion si
+Estrada: Declaro 3 variables tipo entero para almacenar 3 numeros un que va a gurdar el numero par,el indicador del usuraio hasta que numero
+quiere ver los nuemros pares y el que va a guardar si el numero es par. todo esto lo procesamos dentro de el ciclo for con una condicion si
 el numero y la salida seran los numero pares hasta dicho numero ingresado.
  */
 package Repeticiones;

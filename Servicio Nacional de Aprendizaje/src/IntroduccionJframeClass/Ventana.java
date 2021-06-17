@@ -9,9 +9,11 @@ import javax.swing.JLabel;
 /*
 Ventana
  */
+
 /**
  * @author Familia Llanten
  */
+
 public class Ventana extends JFrame {
 
     Ventana() {
@@ -25,22 +27,21 @@ public class Ventana extends JFrame {
     }
 
     private void Componentes() {
-        
+
         JPanel panel = new JPanel();
         panel.setBackground(Color.DARK_GRAY);
         this.getContentPane().add(panel);
-        
-        JLabel etiqueta=new JLabel();
+
+        JLabel etiqueta = new JLabel();
         etiqueta.setForeground(Color.CYAN);
         etiqueta.setText("Soy una Etiqueta de color Cyan");
-        etiqueta.setFont(new Font("Monotype Corsiva",0,20));//fuente del panel
+        etiqueta.setFont(new Font("Monotype Corsiva", 0, 20));//fuente del panel
 //        etiqueta.setOpaque(true);
 //        etiqueta.setBackground(Color.WHITE); //sirve para cambiar el fondo de la etiqueta
-        
-       panel.add(etiqueta);
+        panel.add(etiqueta);
     }
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         Ventana myventana = new Ventana();//Instancio la clase Frame
         myventana.setTitle("Titulo");
     }
