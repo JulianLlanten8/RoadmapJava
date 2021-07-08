@@ -10,15 +10,15 @@ public class UsaAutomovil {
     public static void main(String[] args) {
         String marca = JOptionPane.showInputDialog("Ingrese la marca del vehiculo");
         int modelo = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el modelo del vehiculo"));
-        String tipo = tipo = JOptionPane.showInputDialog("Ingrese la marca del tipo");
+        String color = JOptionPane.showInputDialog("Ingrese el  color");
         double precio = Double.parseDouble(JOptionPane.showInputDialog("Ingrese el precio del vehiculo"));
 
-        Automovil auto = new Automovil(marca, modelo, tipo, precio);
+        Automovil Camaro = new Automovil(marca, color, modelo, precio);
 
-        JOptionPane.showMessageDialog(null, "La marca del veiculo es: " + auto.getMarca()
-                + "\nel modelo del vehiculo: " + auto.getModelo()
-                + "\nel tipo de vehiculo es: " + auto.getTipo()
-                + "\nel precio del vehiculo es: " + auto.getPrecio());
+        JOptionPane.showMessageDialog(null, "La marca del veiculo es: " + Camaro.getMarca()
+                + "\nel color de vehiculo es: " + Camaro.getColor()
+                + "\nel modelo del vehiculo: " + Camaro.getModelo()
+                + "\nel precio del vehiculo es: " + Camaro.getPrecio());
     }
 
 }

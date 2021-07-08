@@ -4,13 +4,13 @@ public class Automovil {
 
     public String marca;
     public int modelo;
-    public String tipo;
+    public String color;
     public double precio;
 
-    Automovil(String marca, int modelo, String tipo, double precio) {
+    Automovil(String marca, String color,int modelo , double precio) {
         this.marca = marca;
+        this.color = color;
         this.modelo = modelo;
-        this.tipo = tipo;
         this.precio = precio;
     }
 
@@ -30,12 +30,12 @@ public class Automovil {
         return this.modelo;
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
+    public void setColor(String color) {
+        this.color = color;
     }
 
-    public String getTipo() {
-        return this.tipo;
+    public String getColor() {
+        return this.color;
     }
 
     public void setPrecio(double precio) {

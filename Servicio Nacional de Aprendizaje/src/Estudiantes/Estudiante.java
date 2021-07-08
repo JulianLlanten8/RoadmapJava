@@ -15,8 +15,6 @@ public class Estudiante {
         this.correo = correo;
         this.entidad = entidad;
     }
-
-    Estudiante() {}
     
     public void setNombre(String nombre) {
         this.nombre = nombre;
