@@ -1,7 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ Le doy gracias a Dios primeramente por llenarme de salud y paciencia
+ tambien le doy gracias a mi familia y personas que apoyaron con su logica
+ como mi amigo ingeniero Jorge Calvo cabe aclarar que aun no es calvo :v
+ solo el apellido.
  */
 package dedicacion;
 
